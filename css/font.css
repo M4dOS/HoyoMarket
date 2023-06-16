@@ -1,0 +1,24 @@
+@font-face 
+{
+    font-family: 'Genshin';
+    src: url('fonts/GenshinImpact.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'GenshinDRIP';
+    src: url('fonts/GenshinImpact_DRIP.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'Honkai';
+    src: url('fonts/StarRail.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+    
