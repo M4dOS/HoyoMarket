@@ -1,14 +1,63 @@
 body {
   margin: 0;
   background-color: #9acfd3;
+  margin: 0;
+  background-color: #9acfd3;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.top {
+  background-color: #1b1e26;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 45px;
+}
+.header .link_block {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15%;
+}
+.header a {
+  padding: 10px 2%;
+  text-decoration: none;
+  text-align: justify;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header a:hover {
+  color: #fff;
+  background-color: #8fbcbf;
+}
+.header img {
+  margin-left: 20px;
 }
 
 main {
   color: antiquewhite;
   margin-top: 45px;
   padding-bottom: 25px;
+  color: antiquewhite;
+  margin-top: 45px;
+  padding-bottom: 25px;
   background-color: #1b1e26;
 }
+main .main-picture {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 main > .main-picture {
   max-width: 100%;
   height: auto;
@@ -20,35 +69,75 @@ main > .main-picture {
   justify-content: center;
   display: flex;
   padding-top: 10px;
+.main {
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
 }
-main > .block {
+main div {
   display: flex;
   justify-content: center;
 }
-main > .block div p {
-  font-size: 20px;
+main .block-1 div {
+  width: 40%;
 }
-main > .block div {
+main .block-2 div {
   width: 30%;
 }
-main .buy-button {
-  max-width: 256px;
+main div .buy-button {
+  max-width: 100%;
   height: auto;
-  padding-left: 200px;
+  padding-left: 32px;
 }
+main div .warderer {
+  height: auto;
+  max-width: 256px;
+  padding-right: 32px;
 main > div > .warderer {
   height: 256px;
   max-width: 256px;
   padding-right: 200px;
 }
+
+.bottom {
+  background-color: RGB(54, 64, 91);
+  width: 100%;
+  height: 150px;
+}
+.footer .link_block {
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
 main > h1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.copyrate {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
 main > h2 {
   padding-left: 5%;
 }
+.copyrate img {
+  height: 18px;
+  width: 130px;
+  margin-top: 18px;
+}
+.footer a:hover {
+  color: black;
+  background-color: #8fbcbf;
+}
+.footer a {
+  padding: 10px 5px;
+  text-decoration: none;
+  color: #fff;
 main > h3 {
   padding-left: 5%;
 }
