@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.top {
+  background-color: #1b1e26;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 45px;
+}
+.header .link_block {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15%;
+}
+.header a {
+  padding: 10px 2%;
+  text-decoration: none;
+  text-align: justify;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header a:hover {
+  color: #fff;
+  background-color: #8fbcbf;
+}
+.header img {
+  margin-left: 20px;
+}

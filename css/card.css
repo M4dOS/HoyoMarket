@@ -1,0 +1,48 @@
+card > .account-img img {
+  padding-top: 16px;
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+  max-width: 1752px;
+  min-width: 1000px;
+}
+
+card {
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 90%;
+  min-width: 1080px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #323d47;
+  box-shadow: 0 0 16px #323d47;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+card .account-buy {
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #09c2b9;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 16px;
+}
+card .account-about mark {
+  font-size: 15px;
+  margin-left: 10px;
+  color: #e76162;
+  background-color: transparent;
+}
+card .account-card-about {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
